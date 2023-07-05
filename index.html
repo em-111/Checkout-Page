@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./Images/code.svg" type="image/x-icon">
+
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <h1>Checkout</h1>
+
+        <main class="checkout">
+
+            <div class="contact">
+
+                <!-- =================================    CONTACT INFO    ================================= -->
+                <div class="contact-info">
+                    <h3>Contact information</h3>
+
+                    <div class="input-field">
+                        <h6><label for="email">E-mail</label></h6>
+                        <input type="email" name="email" id="email" placeholder="Enter your email...">
+                    </div>
+
+                    <div class="input-field">
+                        <h6><label for="phone">Phone</label></h6>
+                        <input type="number" name="phone" id="phone" placeholder="Enter your phone...">
+                    </div>
+                </div>
+
+                <!-- =================================    SHIPPING INFO    ================================= -->
+                <div class="shipping-info">
+                    <h3>Shiping address</h3>
+
+                    <div class="input-field">
+                        <h6><label for="name">Full Name</label></h6>
+                        <input type="text" name="name" id="name" placeholder="John Doe">
+                    </div>
+
+                    <div class="input-field">
+                        <h6><label for="address">Address</label></h6>
+                        <input type="text" name="address" id="address" placeholder="Your address...">
+                    </div>
+
+                    <div class="input-field">
+                        <h6><label for="city">City</label></h6>
+                        <input type="text" name="city" id="city" placeholder="Your city...">
+                    </div>
+
+                    <div class="country-code">
+                        <div class="input-field">
+                            <h6><label for="country">Country</label></h6>
+                            <input type="text" name="country" id="country" placeholder="Your country...">
+                        </div>
+
+                        <div class="input-field">
+                            <h6><label for="postal-code">Postal code</label></h6>
+                            <input type="text" name="postal-code" id="postal-code" placeholder="Your postal code...">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- =================================    SUBMIT ORDER    ================================= -->
+                <div class="submit-order">
+                    <div class="save-information">
+                        <input type="checkbox" name="information-save" id="information-save">
+                        <label for="information-save">Save this information for next time</label>
+                    </div>
+                    <button id="continue" type="submit">Continue</button>
+                </div>
+            </div>
+
+            <!-- =================================    CART    ================================= -->
+            <div class="cart">
+                <div class="items">
+                    <div class="item">
+                        <div class="item-image"></div>
+                        <div class="item-info">
+                            <h3>Vintage Backbag</h3>
+                            <div class="item-price">
+                                <p class="discount">$59.99</p>
+                                <p class="starting-price"><del>$49.99</del></p>
+                            </div>
+                            <div class="item-amount">
+                                <p class="minus"></p>
+                                <p class="one">1</p>
+                                <p class="plus"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="item-image"></div>
+                        <div class="item-info">
+                            <h3>Levi Shoes</h3>
+                            <div class="item-price">
+                                <p class="discount">$74.99</p>
+                                <p class="starting-price"><del>$124.99</del></p>
+                            </div>
+                            <div class="item-amount">
+                                <p class="minus"></p>
+                                <p class="one">1</p>
+                                <p class="plus"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="total">
+                    <hr>
+                    <div class="shipping-total">
+                        <p>Shipping</p>
+                        <p>$19</p>
+                    </div>
+                    <hr>
+                    <div class="item-total">
+                        <p>Total</p>
+                        <p>$148.98</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>
+                &copy; This is a project from
+                <a href="https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO" target="_blank">devchallenges.io</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
