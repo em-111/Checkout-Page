@@ -167,6 +167,14 @@ input#postal-code {
     background-size: 100%;
 }
 
+.cart .item-image-1 {
+    background-image: url("./Images/photo1.png");
+}
+
+.cart .item-image-2 {
+    background-image: url("./Images/photo2.png");
+}
+
 .cart .item-info {
     width: 165px;
     display: flex;
